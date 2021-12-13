@@ -16,5 +16,14 @@
 - val (name:String,age:Int,sal:Float)=("Haider",25,1333f)
 - val (name,age,sal)=("Sanju",26,1222f)
 
+###### Any class
+- Super class of every other class
+- it has methods like getClass(), !=(obj2:Any):Boolean, ##() similar to Java Object Class, ==(obj2:Any):Boolean, asInstanceOf(ClassType):ClassType, equals(arg0:Any):Boolean, hashCode():Int, isInstanceOf(ClassType):Boolean, toString():String
+- is extended by AnyVal, AnyRef and Nothing
+
+
+- The ability to determine the datatype based on the value is called as type inferencing.
+- 
+
 
 
